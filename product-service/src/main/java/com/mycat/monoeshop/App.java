@@ -15,10 +15,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @MapperScan("com.mycat.monoeshop.mapper")
 @EnableDiscoveryClient
 public class App {
-	/**
-	 * 登录session key
-	 */
-	public final static String SESSION_KEY = "myapp_cur_user";
 
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
