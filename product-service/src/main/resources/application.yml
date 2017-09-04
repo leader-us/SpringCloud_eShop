@@ -34,7 +34,7 @@ server:
     uri-encoding: UTF-8    
 
 logging:
-  config: classpath:log4j2.xml
+  config: classpath:logback.xml
 eureka:
   instance:
     hostname: 127.0.0.1

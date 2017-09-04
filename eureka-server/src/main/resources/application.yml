@@ -6,7 +6,7 @@ info:
      name: ${spring.application.name}
      version: v1.0.0
 logging:
-  config: classpath:log4j2.xml
+  config: classpath:logback.xml
 server:
   port: 8030
   context-path: /

@@ -10,7 +10,7 @@ info:
      name: ${spring.application.name}
      version: v1.0.0
 server:
-  port: 8031
+  port: 8039
   context-path: /
   tomcat:
     uri-encoding: UTF-8
