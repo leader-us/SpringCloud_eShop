@@ -5,13 +5,13 @@ info:
   app:
      name: ${spring.application.name}
      version: v1.0.0
+logging:
+  config: classpath:log4j2.xml
 server:
   port: 8030
   context-path: /
   tomcat:
     uri-encoding: UTF-8    
-logging:
-  config: classpath:log4j2.xml
 eureka:
   instance:
     hostname: 127.0.0.1
